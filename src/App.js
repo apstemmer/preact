@@ -165,17 +165,15 @@ class App extends Component {
 
           <div className="increment-wrapper">
             <div className="workload">
-              <h5>workload</h5>
-              <div className="sub-wrap">
-                <Increment loc="workload" min={0.1} max={10} step={0.1} val={specs.workload} handleChange={this.handleIncrement}/>
-              </div>
+              <div className="title-wrap"><h5>workload</h5></div>
+              <Increment loc="workload" min={0.1} max={10} step={0.1} val={specs.workload} handleChange={this.handleIncrement}/>
             </div>
             <div className="workweek">
-              <h5>workweek</h5>
+              <div className="title-wrap"><h5>workweek</h5></div>
               <Increment loc="workweek" min={1} max={100} step={1} val={specs.workweek/3600} handleChange={this.handleIncrement}/>
             </div>
             <div className="holdidays">
-              <h5>holidays</h5>
+              <div className="title-wrap"><h5>holidays</h5></div>
               <Increment loc="holidays" min={0} max={90} step={1} val={specs.holidays} handleChange={this.handleIncrement}/>
             </div>
           </div>
@@ -302,11 +300,7 @@ class App extends Component {
         <footer>
         </footer>
 
-        {
-          floatarray.map((elem)=>{
-            return <Floater key={elem} title={elem} />
-          })
-        }
+
 
       </div>
     );
@@ -316,3 +310,9 @@ class App extends Component {
 
 
 export default App
+
+// {
+//   floatarray.map((elem)=>{
+//     return <Floater title={elem} />
+//   })
+// }

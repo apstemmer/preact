@@ -2,14 +2,19 @@
   "name": "preact",
   "version": "0.1.0",
   "private": true,
+  "homepage": "apstemmer.github.io/preact",
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.1.1",
     "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.12"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/scss -o src/css",
     "watch-css": "npm run build-css && node-sass-chokidar src/scss -o src/css --watch --recursive",
     "start-js": "react-scripts start",

@@ -1,10 +1,14 @@
 .floater{
   position: fixed;
+  top: -10px;
   background-color: yellow;
   border-radius: 20px;
   border: 3px solid black;
   padding: 5px;
   display: inline-block;
+  animation: snowflake;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 .fl-left{
@@ -13,4 +17,10 @@
 
 .fl-right{
   right: 5%;
+}
+
+@keyframes snowflake {
+  100%{
+    top:110%;
+  }
 }

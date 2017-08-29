@@ -6,7 +6,7 @@ export default class Floater extends Component {
     let pos = Math.random() > 0.5 ? 'fl-right' : 'fl-left'
     console.log(new Date());
     return (
-      <span key={this.props.title} className={`floater ${pos}`} style={{animationDelay:(Math.random()*30)+'s',}}>
+      <span key={this.props.title} className={`floater ${pos}`} >
       {this.props.title}
       </span> );
   }

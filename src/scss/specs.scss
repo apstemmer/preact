@@ -1,40 +1,20 @@
-.specs{
 
-}
 
-.specs > div{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.increment-wrapper{
   margin: 10px 0;
-}
-
-.specs >div>div{
-  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 .increment-wrapper > div{
-  width: 33%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.increment-wrapper h5{
-  line-height: 200%;
-  text-align: center;
-  flex-grow: 1;
-}
-
-.specs h4{
-  font-size: 25px;
-  margin-right: 20px;
-}
-
-.specs-wrap{
+.title-wrap{
+  margin: 0 15px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
 }
