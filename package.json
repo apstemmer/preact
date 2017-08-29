@@ -2,7 +2,7 @@
   "name": "preact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "apstemmer.github.io/preact",
+  "homepage": "https://myusername.github.io/my-app",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "node-sass-chokidar": "0.0.3",
