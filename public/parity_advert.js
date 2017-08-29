@@ -124,7 +124,7 @@ function AgileManagementSystems() { return enumerate("NotYetChosen", "Kanban"); 
 function TravelOptions() { return enumerate("None", "Possible", "Plentiful"); }
 function RemoteWorking() { return enumerate("No", "Negotiable", "Required"); }
 function RelocationPackages() { return enumerate("Nonealse", "Negotiable"); }
-function OperationSystems() { return enumerate("MacOSX", "Ubuntu", "Windows"); }
+function OperationSystems() { return enumerate("MacOSX","Windows","Ubuntu"); }
 function MachineType() { return enumerate("Workstation", "Laptop"); }
 function Monitors() { return enumerate("Negotiable"); }
 function Level() { return enumerate("Familiar", "Good", "Expert"); }

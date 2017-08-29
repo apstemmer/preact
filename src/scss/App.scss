@@ -9,6 +9,7 @@
 }
 
 header.content-block{
+
   display: flex;
   flex-direction: row;
   margin-top: 30px;
@@ -20,9 +21,27 @@ header.content-block{
   }
 }
 h1{
+  text-shadow: 4px 4px yellow;
   margin: 10px;
   display: inline-block;
   font-size: 80px;
+
+}
+h1:hover{
+  animation: slant 2s ease infinite;
+
+}
+
+@keyframes slant {
+  0% {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1)
+  }
+  100%{
+    transform: scale(1)
+  }
 }
 
 h3{
@@ -33,6 +52,18 @@ h3{
 
 p{
   text-align: center;
+}
+
+.sliding-u-l-r {
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+}
+.sliding-u-l-r:hover {
+    border-bottom: 3px solid orange;
+    width: 4em;
 }
 
 

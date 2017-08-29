@@ -3,6 +3,9 @@
   height: 12em;
   display: inline-block;
   background-color: yellow;
+  position: relative;
+  transition: 0.4s ease;
+  transform: scale(1.0);
   span{
     font-size: 20px;
     display: inline-block;
@@ -12,6 +15,16 @@
     left:20px;
     position: relative;
   }
+}
+
+.profile-part:hover{
+  transition: 0.4s ease;
+  transform: scale(1.03);
+  z-index: 10;
+}
+
+@keyframes expandify {
+
 }
 
 .profile-part:nth-child(2){

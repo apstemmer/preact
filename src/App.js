@@ -33,11 +33,7 @@ class App extends Component {
     this.handleSelect  = this.handleSelect.bind(this);
     this.toggleSwitch  = this.toggleSwitch.bind(this);
   }
-
-  componentDidMount(){
-
-  }
-
+  
   handleSelect(location, updated){
     let newState = this.state.desc[location[0]];
     newState[location[1]] = updated;
@@ -146,7 +142,7 @@ class App extends Component {
           </div>
 
           <div className="industry">
-            <h5>industry</h5>
+            <h5 className="sliding-u-l-r">industry</h5>
             <span>{essentials.industry}</span>
           </div>
 
@@ -281,7 +277,7 @@ class App extends Component {
           <h3>Operating System</h3>
           <div className="operatingsystem">
             {equip.operatingsystem.map((elem)=>{
-              return (<div key={elem} className={`os-item ${equip.operatingsystem.indexOf(elem)? "os-select":""}`}>
+              return (<div key={elem} className={`os-item ${elem}`}>
                 <img src={require(`./images/${elem}.svg`)}/>
                 <h4>{elem}</h4>
               </div>);
