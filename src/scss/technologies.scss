@@ -1,0 +1,31 @@
+.techsection{
+  text-align: center;
+  span{
+    font-size: 20px;
+    margin: 0 10px;
+  }
+}
+.technologies{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.technologies h5{
+  width: auto;
+}
+
+span.expert{
+  color: red;
+}
+
+
+span.good{
+  color: orange;
+}
+
+span.familiar{
+  color: yellow;
+}

@@ -1,0 +1,46 @@
+.TechnoBox{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: 10px;
+  width: 130px;
+  height: auto;
+  border: 3px solid;
+  border-radius: 12px;
+  img{
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+  }
+  .tech-oneof{
+    font-size: 17px;
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .oneof-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .langs img{
+    width: 30px !important;
+  }
+}
+.level-Expert{
+    border-color: red;
+}
+
+.level-Good{
+    border-color: orange;
+}
+
+.level-Familiar{
+    border-color: yellow;
+}

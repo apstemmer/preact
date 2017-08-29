@@ -1,0 +1,52 @@
+/*grid: false*/
+.methodology{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.slide-wrap{
+  margin: 5px 0;
+  display: flex;
+  width: 33%;
+}
+
+.slide-wrap h4{
+  margin: 0;
+  font-size: 25px;
+  display: inline;
+  width: 70%;
+}
+
+.click-wrap{
+  width:100%;
+  padding: 10px 0 3px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid lightgrey;
+  .Clicker{
+    margin-bottom: 7px;
+  }
+}
+
+.click-wrap h5{
+  margin: 0;
+  display: inline-block;
+  font-size: 25px;
+  width: 17em;
+}
+
+.click-wrap > div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#companysize .Clicker{
+  width: auto;
+
+}

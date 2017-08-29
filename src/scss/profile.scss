@@ -1,0 +1,29 @@
+.profile-part{
+
+  font-weight: bold;
+  height: 12em;
+  display: inline-block;
+  background-color: yellow;
+}
+
+.profile-part span{
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  transform: rotate(90deg);
+  transform-origin: left;
+  left:20px;
+  position: relative;
+}
+
+
+.profile-part:nth-child(2){
+  background-color: orange
+}
+
+.profile-part:nth-child(3){
+    background-color: red;
+}
+.profile-part:nth-child(5) span{
+  left: 50px;
+}

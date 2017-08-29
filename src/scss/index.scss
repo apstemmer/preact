@@ -1,0 +1,22 @@
+body, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+}
+
+h3{
+  text-align: center;
+}
+
+h5{
+  font-size: 25px;
+}
+
+img{
+    filter: grayscale(100%);
+}
+
+*:focus {outline:none}
